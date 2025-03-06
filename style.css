@@ -1,0 +1,136 @@
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.navbar ul li{
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    display: block;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+#A\ propos {
+    background-color: #f0f0f0; /* fond gris clair */
+    padding: 20px; /* espace autour du texte */
+    margin-top: 30px; /* espacement avant la section */
+    color: #333; /* couleur du texte */
+}
+
+#A\ propos h1 {
+    font-size: 2rem; /* taille de titre */
+    margin-bottom: 15px; /* espacement sous le titre */
+}
+
+#A\ propos p {
+    font-size: 1.1rem; /* taille de texte pour les paragraphes */
+    line-height: 1.6; /* espace entre les lignes */
+    margin-bottom: 10px; /* espacement entre les paragraphes */
+}
+
+
+.section {
+    width: 80%; /* Ajuste la largeur selon ton besoin */
+    margin: 0 auto; /* Centre la section */
+    background-color: beige; /* Ajoute une couleur de fond */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.section ul {
+    list-style: none; /* Enlève les puces */
+    padding: 0;
+}
+
+.section li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: white; /* Couleur de fond des projets */
+    border-left: 10px solid red; /* Crée la barre rouge à gauche */
+    border-radius: 5px;
+    
+}
+
+.section li h3 {
+    margin: 0 0 5px 0;
+}
+
+.section p{
+   margin-left: 30px;
+}
+
+/* Centrer le formulaire */
+.sect {
+    width: 300px;  /* Fixe une largeur pour le formulaire */
+    margin: 50px auto;  /* Centrer horizontalement */
+    padding: 20px;
+    background-color: #f7f7f7;  /* Couleur d'arrière-plan du formulaire */
+    border-radius: 8px;  /* Arrondir les coins */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Ombre pour donner un effet de profondeur */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Transition pour l'animation */
+  }
+  
+  /* Effet de survol (soulèvement) */
+  .sect:hover {
+    transform: translateY(-10px);  /* Déplace le formulaire légèrement vers le haut */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);  /* Ombre plus prononcée */
+  }
+  
+  /* Style des champs du formulaire */
+  .sect input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .sect button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sect button:hover {
+    background-color: #0056b3;  /* Changer la couleur du bouton au survol */
+  }
+
+
+  .footer{
+    width:200px ;
+    margin: 50px auto;
+    background-color: blue;
+    border-radius: 0 0 15px;
+    padding: 5px;
+  }
+
+  .footer p{
+    color: antiquewhite;
+  }
